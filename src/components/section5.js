@@ -2,12 +2,12 @@ import React from 'react';
 
 const Section5 = () => {
   return (
-    <section className="max-w-[912px] mx-auto py-16 px-4 sm:px-6 lg:px-8 text-center" id='process'>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-2 lg:gap-8">
+    <section className="max-w-[912px] mt-[60px] sm:mt-[180px] px-[16px] mx-auto sm:px-6 lg:px-8 text-center" id='process'>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[16px] lg:grid-cols-2 lg:gap-8">
         {/* They Section */}
-        <div className="bg-white text-[#191919] p-8 rounded-lg text-left order-2 lg:order-1">
-          <h3 className="text-[28px] leading-[30px] md:text-[36px] md:leading-[42px] font-youngSerif mb-4">They</h3>
-          <ul className="space-y-4 text-[16px] md:text-[18px] font-commissioner">
+        <div className="bg-white text-[#191919] rounded-lg text-left p-[45px] order-2 lg:order-1">
+          <h3 className="text-[28px] leading-[30px] md:text-[36px] md:leading-[42px] font-youngSerif">They</h3>
+          <ul className="space-y-4 text-[16px] md:text-[18px] mt-[15px] font-commissioner">
             <li className="flex items-start">
             <img
               src="/assets/icon1black.jpg"
@@ -56,7 +56,7 @@ const Section5 = () => {
           <img
             src="/image8.jpg"
             alt="They Section Image"
-            className="w-full h-auto object-cover rounded-lg"
+            className="w-full h-auto object-cover rounded-[5px]"
           />
         </div>
 
@@ -108,9 +108,9 @@ const Section5 = () => {
           </ul>
           <a
             href="https://calendly.com/dbujor-elevexa/30min" target="_blank"
-            className="inline-block bg-lime-400 text-black py-3 px-6 rounded-full font-semibold mt-6 text-[18px] leading-[22px]"
+            className="inline-block bg-[#D7FF43] text-[#191919] p-[16px] rounded-[50px] border border-[#D8D8D8] font-instrument font-medium mt-[15px] text-[18px] leading-[22px]"
           >
-            Book a call
+            Book a call &rarr;
           </a>
         </div>
 
@@ -119,7 +119,7 @@ const Section5 = () => {
           <img
             src="/image9.jpg"
             alt="Us Section Image"
-            className="w-full h-auto object-cover rounded-lg"
+            className="w-full h-auto object-cover rounded-[5px]"
           />
         </div>
       </div>
