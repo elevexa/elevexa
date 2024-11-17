@@ -16,7 +16,7 @@ const Navbar = () => {
   }, [isMenuOpen]);
 
   return (
-    <div className='px-[16px] py-[16px] w-full'>
+    <div className='max-w-[1408px] mx-auto px-[16px] py-[16px] w-full'>
       <nav className="border border-[#D8D8D8] py-[14px] px-[16px] flex justify-between items-center rounded-[5px]">
         {/* Logo Section */}
         <div className="text-[28px] font-normal font-youngSerif text-gray-900 leading-[39px]">
@@ -33,7 +33,7 @@ const Navbar = () => {
           <a href="mailto:info@elevexa.io" className="text-[#191919] hover:text-gray-900">info@elevexa.io</a>
           <a href="tel:+43 720 881175" className="text-[#191919] hover:text-gray-900">+43 720 881175</a>
           <button 
-            className="bg-[#D7FF43] border border-[#D8D8D8] text-[#040404] px-[16px] py-[4px] rounded-[50]px text-[16px] leading-[19px]"
+            className="bg-[#D7FF43] border border-[#D8D8D8] text-[#040404] px-[16px] py-[4px] rounded-[50px] text-[16px] leading-[19px]"
             onClick={() => window.open("https://calendly.com/dbujor-elevexa/30min", "_blank")}
           >
             Book a call

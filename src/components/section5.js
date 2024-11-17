@@ -54,14 +54,14 @@ const Section5 = () => {
         {/* Image 1 */}
         <div className="order-1 lg:order-2">
           <img
-            src="/image8.jpg"
+            src="/gif/2.gif"
             alt="They Section Image"
-            className="w-full h-auto object-cover rounded-[5px]"
+            className="w-full h-auto lg:h-full object-cover rounded-[5px]"
           />
         </div>
 
         {/* Us Section */}
-        <div className="bg-[#3C3C3C] text-white p-8 rounded-lg text-left order-4 lg:order-3">
+        <div className="bg-[#3C3C3C] text-white p-8 rounded-lg text-left order-4 lg:order-4">
           <h3 className="text-[28px] leading-[30px] md:text-[36px] md:leading-[42px] font-youngSerif mb-4">Us</h3>
           <ul className="space-y-4 text-white text-[16px] md:text-[18px] font-commissioner">
             <li className="flex items-start">
@@ -115,11 +115,11 @@ const Section5 = () => {
         </div>
 
         {/* Image 2 */}
-        <div className="order-3 lg:order-4">
+        <div className="order-3 lg:order-3">
           <img
-            src="/image9.jpg"
+            src="/gif/3.gif"
             alt="Us Section Image"
-            className="w-full h-auto object-cover rounded-[5px]"
+            className="w-full h-auto lg:h-full object-cover rounded-[5px]"
           />
         </div>
       </div>

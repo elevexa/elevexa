@@ -2,9 +2,9 @@ import React from 'react';
 
 const Section3 = () => {
   return (
-    <section className="max-w-[912px] mx-auto px-[16px] md:py-16 md:px-4 sm:px-6 mt-[60px] sm:mt-[180px] lg:px-8 text-center" id='work'>
+    <section className="max-w-[912px] mx-auto px-[16px] mt-[60px] sm:mt-[180px]  text-center" id='work'>
       <h2 className="text-[36px] leading-[38px] font-bold text-[#191919] font-youngSerif">You Should Not Work with Us Before You Tried...</h2>
-      <p className="text-[18px] leading-[24px] font-commissioner mt-[45px] sm:mt-0 text-[#191919]">
+      <p className="text-[18px] leading-[24px] font-commissioner mt-[45px] text-[#191919]">
         Businesses often hit us up with problems they could totally handle on their own. And honestly,
         most of the time, they wouldn’t even need to spend a cent.
       </p>
@@ -15,8 +15,8 @@ const Section3 = () => {
         {/* Referrals */}
         <div className="bg-white text-[#191919] p-[45px] rounded-lg">
           <img src="/image2.jpg" alt="Referrals" className="w-[358px] rounded-[5px] h-[244px] object-cover" />
-          <h3 className="text-[28px] text-left md:text-center leading-[30px] mt-[25px] font-youngSerif">Referrals</h3>
-          <p className='font-commissioner text-left md:text-center mt-[20px] font-[18px] leading-[24px]'>
+          <h3 className="text-[28px] text-left  leading-[30px] mt-[25px] font-youngSerif">Referrals</h3>
+          <p className='font-commissioner text-left mt-[20px] font-[18px] leading-[24px]'>
             How many developers have you successfully hired for your company? When you asked your team or
             network, "Do you know anyone else who might be interested in joining us?" what kind of
             feedback did you get?
@@ -26,8 +26,8 @@ const Section3 = () => {
         {/* LinkedIn & Social Branding */}
         <div className="bg-white  text-[#191919] p-[45px] rounded-lg">
           <img src="/image3.jpg" alt="LinkedIn & Social Branding" className="rounded-[5px] w-[358px] h-[244px] object-cover" />
-          <h3 className="text-[28px] text-left md:text-center leading-[30px] mt-[25px] font-youngSerif">LinkedIn & Social Branding</h3>
-          <p className='font-commissioner text-left md:text-center mt-[20px] font-[18px] leading-[24px] '>
+          <h3 className="text-[28px] text-left leading-[30px] mt-[25px] font-youngSerif">LinkedIn & Social Branding</h3>
+          <p className='font-commissioner text-left  mt-[20px] font-[18px] leading-[24px] '>
             Building a social presence is a simple way to attract inbound candidates. Sharing daily posts
             about your company culture, perks, benefits, or highlighting employees is a quick and
             cost-free way to drive more interest and applications.
@@ -37,8 +37,8 @@ const Section3 = () => {
         {/* Active Headhunting */}
         <div className="bg-white  text-[#191919] p-[45px] rounded-lg">
           <img src="/image4.jpg" alt="Active Headhunting" className=" w-[358px] rounded-[5px] h-[244px] object-cover" />
-          <h3 className="text-[28px] text-left md:text-center leading-[30px] mt-[25px]  font-youngSerif">Active Headhunting</h3>
-          <p className='font-commissioner font-[18px] text-left mt-[20px] md:text-center leading-[24px]'>
+          <h3 className="text-[28px] text-left  leading-[30px] mt-[25px]  font-youngSerif">Active Headhunting</h3>
+          <p className='font-commissioner font-[18px] text-left mt-[20px] leading-[24px]'>
             Got an hour to spare each day? Use it to actively search and reach out to potential candidates.
             You know your company and the perfect developer profile better than anyone, so why not take
             matters into your own hands and do the hiring yourself?
@@ -48,8 +48,8 @@ const Section3 = () => {
         {/* Setting Up A Nearshore Location Yourself */}
         <div className="bg-white  text-[#191919] p-[45px] rounded-lg">
           <img src="/image5.jpg" alt="Setting Up A Nearshore Location Yourself" className="rounded-[5px] w-[358px] h-[244px] object-cover" />
-          <h3 className="text-[28px] text-left md:text-center leading-[30px] mt-[25px]  font-youngSerif">Setting Up A Nearshore Location Yourself</h3>
-          <p className='font-commissioner text-left md:text-center mt-[20px] font-[18px] leading-[24px]'>
+          <h3 className="text-[28px] text-left leading-[30px] mt-[25px]  font-youngSerif">Setting Up A Nearshore Location Yourself</h3>
+          <p className='font-commissioner text-left  mt-[20px] font-[18px] leading-[24px]'>
             Start by registering your business and making sure you’re covered with local legal and tax
             regulations. Then, hire local talent. Finally, get your infrastructure in place, whether
             that’s an office space or remote work tools. You know your business better than anyone—why

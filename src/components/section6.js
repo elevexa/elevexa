@@ -2,13 +2,13 @@ import React from 'react';
 
 const Section6 = () => {
   return (
-    <section className="max-w-[1376px] mx-auto px-[16px] mt-[60px] sm:mt-[180px] md:py-16 sm:px-6 lg:px-8 text-center">
+    <section className="max-w-[1376px] mx-auto px-[16px] mt-[60px] sm:mt-[180px] sm:px-6 lg:px-8 text-center">
       <h2 className="text-[36px] leading-[38px] lg:text-4xl font-youngSerif text-[#191919]">The Grand Qualification</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px] md:mt-[45px]">
         {/* The Résumé Rumble */}
-        <div className="bg-white p-[36px] mt-[30px] rounded-[5px] text-left">
+        <div className="bg-white p-[36px] mt-[30px] md:mt-0 rounded-[5px] text-left">
           <img
-            src="/image10.jpg"
+            src="/gif/4.gif"
             alt="The Résumé Rumble"
             className="w-full md:max-w-[242px] md:h-[244px] object-cover rounded-[5px] mx-auto"
           />
@@ -26,7 +26,7 @@ const Section6 = () => {
         {/* The Soft Skills Showdown */}
         <div className="bg-white p-[36px] rounded-[5px] text-left">
           <img
-            src="/image11.jpg"
+            src="/gif/5.gif"
             alt="The Soft Skills Showdown"
             className="w-full md:max-w-[242px] sm:mr-[20px] md:h-[244px] object-cover rounded-[5px] mx-auto"
           />
@@ -44,7 +44,7 @@ const Section6 = () => {
         {/* Checkpoint: Your Hiring Manager */}
         <div className="bg-white p-[36px] rounded-[5px] text-left">
           <img
-            src="/image12.jpg"
+            src="/gif/6.gif"
             alt="Checkpoint: Your Hiring Manager"
             className="w-full md:max-w-[242px] md:h-[244px] object-cover rounded-[5px] mx-auto"
           />
@@ -62,7 +62,7 @@ const Section6 = () => {
         {/* The Chosen Individuals */}
         <div className="bg-[#3C3C3C] p-[36px] rounded-[5px] text-left text-white">
           <img
-            src="/image13.jpg"
+            src="/gif/7.gif"
             alt="The Chosen Individuals"
             className="w-full md:max-w-[242px] md:h-[244px] object-cover rounded-[5px] mx-auto"
           />

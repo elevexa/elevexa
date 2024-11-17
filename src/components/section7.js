@@ -2,9 +2,9 @@ import React from 'react';
 
 const Section7 = () => {
   return (
-    <section className="max-w-[1376px] mx-auto mt-[60px] sm:mt-[180px]  px-[16px] md:py-16 sm:px-6 lg:px-8 text-center" id='pricing'>
+    <section className="max-w-[1376px] mx-auto mt-[60px] sm:mt-[180px]  px-[16px] sm:px-6 lg:px-8 text-center" id='pricing'>
       <h2 className="text-[36px] leading-[38px] text-[#191919] font-youngSerif">$$$</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[16px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[16px] md:mt-[45px]">
         {/* The Quick Fix */}
         <div className="bg-white p-[45px] rounded-lg text-left text-[#191919]">
           <h3 className="text-[28px] font-youngSerif leading-[30px]">The Quick Fix</h3>
