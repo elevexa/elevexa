@@ -16,7 +16,7 @@ const Navbar = () => {
   }, [isMenuOpen]);
 
   return (
-    <div className='max-w-[1408px] mx-auto px-[16px] py-[16px] w-full'>
+    <div className='max-w-[1408px] mx-auto px-[16px] py-[16px] w-full fixed top-0 left-0 right-0 bg-white'>
       <nav className="border border-[#D8D8D8] py-[14px] px-[16px] flex justify-between items-center rounded-[5px]">
         {/* Logo Section */}
         <div className="text-[28px] font-normal font-youngSerif text-gray-900 leading-[39px]">
@@ -57,7 +57,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`${isMenuOpen ? 'absolute h-screen md:hidden w-full font-instrument top-[102px] left-0 bg-white right-0' : 'hidden'} 
+        <div className={`${isMenuOpen ? 'absolute h-screen lg:hidden w-full font-instrument top-[102px] left-0 bg-white right-0' : 'hidden'} 
         transform transition-transform duration-300 ease-in-out px-[16px]
         ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`} >
           <div

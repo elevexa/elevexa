@@ -32,13 +32,13 @@ const Section3 = () => {
   };
 
   return (
-    <section className="max-w-[912px] mx-auto px-[16px] mt-[60px] sm:mt-[180px] text-center" id='work'>
-      <h2 className="text-[36px] leading-[38px] font-bold text-[#191919] font-youngSerif">You Should Not Work with Us Before You Tried...</h2>
-      <p className="text-[18px] leading-[24px] font-commissioner mt-[45px] text-[#191919]">
+    <section className="max-w-[912px] mx-auto px-[16px] lg:px-0 mt-[60px] sm:mt-[180px] text-center" id='work'>
+      <h2 className="text-[36px] leading-[38px] text-[#191919] font-youngSerif">You Should Not Work with Us Before You Tried...</h2>
+      <p className="text-[18px] leading-[24px] md:text-[24px] md:leading-[32px] font-commissioner mt-[45px] text-[#191919]">
         Businesses often hit us up with problems they could totally handle on their own. And honestly,
         most of the time, they wouldn’t even need to spend a cent.
       </p>
-      <p className="text-[18px] leading-[24px] font-commissioner text-[#191919] mt-[25px] font-semibold">
+      <p className="text-[18px] leading-[24px] md:text-[24px] md:leading-[32px] font-commissioner text-[#191919] mt-[25px] font-semibold">
         So, before working with us, here are a few things you might want to try first.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[16px] mt-[45px] sm:mt-0">
@@ -88,7 +88,7 @@ const Section3 = () => {
         </div>
       </div>
       <div ref={ref} className='w-full bg-[#3C3C3C] mt-[45px] p-[45px] rounded-[5px] text-center'>
-        <div className="max-w-xl mx-auto">
+        <div className=" mx-auto">
           <img
             src={isVisible ? '/gif/9.gif' : '/image6.jpg'}
             alt="Profile"
@@ -104,7 +104,7 @@ const Section3 = () => {
             />
           )}
           <h2 className="text-[28px] mt-[15px] font-youngSerif text-[#D7FF43]">And Just So You Know,</h2>
-          <p className="text-white text-[18px] mt-[15px] leading-[24px] font-commissioner">
+          <p className="text-white text-[18px] md:text-[24px] md:leading-[32px] mt-[15px] leading-[24px] font-commissioner">
             we’re not here to oversee your developers’ day-to-day tasks. Our job is to connect you with the
             right developers at the right moment in the perfect location, while also ensuring they stick to
             local legal and tax regulations throughout their time with you. If you notice any gaps or issues

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Section3 = () => {
   return (
-    <section className="max-w-[912px] mx-auto px-[16px]  text-center mt-[60px] md:mt-[180px]">
-      <h2 className="text-4xl font-bold text-[#191919] font-youngSerif">Moldova is cool because...</h2>
+    <section className="max-w-[912px] mx-auto px-[16px] lg:px-0  text-center mt-[60px] md:mt-[180px]">
+      <h2 className="text-4xl h text-[#191919] font-youngSerif">Moldova is cool because...</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-[16px] mt-[45px]">
         {/* Sweet, Exclusive Tax */}
         <div className="bg-white text-[#191919]  p-[45px] rounded-[5px]">
@@ -12,8 +12,8 @@ const Section3 = () => {
               alt="icon1"
               className="mr-2 w-[40px] h-[40px] mt-[2px]"
             />
-          <h3 className="text-[28px] leading-[30px] mt-[20px] text-left font-semibold font-youngSerif">Sweet, Exclusive Tax</h3>
-          <p className='font-commissioner text-left  mt-[20px] text-[18px]' >
+          <h3 className="text-[28px] leading-[30px] mt-[20px] text-left  font-youngSerif">Sweet, Exclusive Tax</h3>
+          <p className='font-commissioner text-left  mt-[20px] text-[18px] md:leading-[24px]' >
             Moldova is the only place in Europe offering a sweet tax deal just for IT
             organizations. A flat 7% tax on revenue, covering income tax, social security, and more.
           </p>
@@ -26,8 +26,8 @@ const Section3 = () => {
               alt="icon1"
               className="mr-2 w-[40px] h-[40px] mt-[2px]"
             />
-          <h3 className="text-[28px] leading-[30px] mt-[20px] text-left  font-semibold font-youngSerif">Low-Cost Clock</h3>
-          <p className=" font-commissioner text-left  mt-[20px] text-[18px]">
+          <h3 className="text-[28px] leading-[30px] mt-[20px] text-left font-youngSerif">Low-Cost Clock</h3>
+          <p className=" font-commissioner text-left  mt-[20px] text-[18px] md:leading-[24px]">
             As a result, our rates are way lower than those in nearby countries like Bulgaria, Romania,
             Poland, and Ukraine.
           </p>
@@ -49,7 +49,7 @@ const Section3 = () => {
               className="mr-2 w-[40px] h-[40px] mt-[2px]"
             />
           <h3 className="text-[28px] leading-[30px] mt-[20px] text-left   font-semibold font-youngSerif">You Get Happy Devs</h3>
-          <p className='font-commissioner text-left  mt-[20px]  text-[18px]'>
+          <p className='font-commissioner text-left  mt-[20px]  text-[18px] md:leading-[24px]'>
             Access a rapidly growing pool of IT specialists who take home their entire salary—no extra
             taxes, just pure net pay.
           </p>

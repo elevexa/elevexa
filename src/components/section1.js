@@ -34,7 +34,7 @@ const Section1 = () => {
   return (
     <section
       ref={ref}
-      className="max-w-[1376px] mx-auto flex flex-col-reverse md:flex-row items-center md:items-start justify-between px-[16px] md:mt-[45px] md:px-8"
+      className="max-w-[1376px] mx-auto flex flex-col-reverse md:flex-row items-center md:items-start justify-between px-[16px] md:mt-[45px] md:px-0"
     >
       {/* Left Side - Text and Button */}
       <div className="md:w-1/2 mr-4">
@@ -45,8 +45,8 @@ const Section1 = () => {
           <p className="text-lg text-[#191919] text-left text-[24px] mt-[30px] sm:mt-[45px] leading-[24px] sm:leading-[32px]">
             Easily <span className="font-semibold">the best nearshore spot</span> in <span className="font-semibold">Eastern Europe</span>.
           </p>
-          <p className="text-lg text-[#191919] text-left text-[24px] mt-[20px] sm:mt-[30px] leading-[24px] sm:leading-[32px]">
-            Submit your request, interview handpicked developers, and have the perfect fit onboard by next Friday.
+          <p className="text-lg text-[#191919] w-full text-left text-[24px] mt-[20px] sm:mt-[30px] leading-[24px] sm:leading-[32px]">
+            <p className='lg:max-w-[467px]'>Submit your request, interview handpicked developers, and have the perfect fit onboard by next Friday.</p>
           </p>
           <button
             className="bg-[#D7FF43] font-instrument text-[#040404] mt-[30px] p-[16px] rounded-[50px] border font-medium border-[#D8D8D8] text-[18px] leading-[22px]"

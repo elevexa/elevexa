@@ -38,7 +38,7 @@ const Section6 = () => {
   return (
     <section
       ref={ref}
-      className="max-w-[1376px] mx-auto px-[16px] mt-[60px] sm:mt-[180px] sm:px-6 lg:px-8 text-center"
+      className="max-w-[1376px] mx-auto px-[16px] mt-[60px] sm:mt-[180px] lg:px-0 text-center"
     >
       <h2 className="text-[36px] leading-[38px] lg:text-4xl font-youngSerif text-[#191919]">The Grand Qualification</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px] md:mt-[45px]">
@@ -61,9 +61,9 @@ const Section6 = () => {
           <img
             src={isVisible ? '/assets/icon2.jpg' : '/assets/icon2placeholder.jpg'}
             alt="icone"
-            className="w-[40px] h-[40px] my-[20px]"
+            className="w-[40px] h-[40px] mt-[20px]"
           />
-          <h3 className="text-xl font-semibold font-youngSerif text-[#191919]">The Résumé Rumble</h3>
+          <h3 className="text-[28px] leading-[30px] mt-[20px] font-youngSerif text-[#191919]">The Résumé Rumble</h3>
           <p className="text-[#191919] text-[18px] leading-[24px] mt-[20px] font-commissioner">
             We skim résumés and LinkedIn profiles and we instantly cut any devs who don’t shine.
           </p>

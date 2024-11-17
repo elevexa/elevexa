@@ -48,8 +48,8 @@ const Section5 = () => {
   }, []);
 
   return (
-    <section className="max-w-[912px] mt-[60px] sm:mt-[180px] px-[16px] mx-auto sm:px-6 lg:px-8 text-center" id='process'>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-[16px] lg:grid-cols-2 lg:gap-8">
+    <section className="max-w-[912px] mt-[60px] sm:mt-[180px] px-[16px] lg:px-0 mx-auto text-center" id='process'>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[16px] lg:grid-cols-2 lg:gap-[16px]">
         {/* They Section */}
         <div className="bg-white text-[#191919] rounded-lg text-left p-[45px] order-2 lg:order-1">
           <h3 className="text-[28px] leading-[30px] md:text-[36px] md:leading-[42px] font-youngSerif">They</h3>
@@ -116,7 +116,7 @@ const Section5 = () => {
         </div>
 
         {/* Us Section */}
-        <div className="bg-[#3C3C3C] text-white p-8 rounded-lg text-left order-4 lg:order-4">
+        <div className="bg-[#3C3C3C] text-white p-[45px] rounded-lg text-left order-4 lg:order-4">
           <h3 className="text-[28px] leading-[30px] md:text-[36px] md:leading-[42px] font-youngSerif mb-4">Us</h3>
           <ul className="space-y-4 text-white text-[16px] md:text-[18px] font-commissioner">
             <li className="flex items-start">
