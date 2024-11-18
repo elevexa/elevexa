@@ -35,7 +35,7 @@ const Section7 = () => {
       <h2 className="text-[36px] leading-[38px] text-[#191919] font-youngSerif">$$$</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[16px] md:mt-[45px]">
         {/* The Quick Fix */}
-        <div className="bg-white p-[45px] rounded-lg text-left text-[#191919]">
+        <div className="bg-[#F2F2F2] p-[45px] rounded-lg text-left text-[#191919]">
           <h3 className="text-[28px] font-youngSerif leading-[30px]">The Quick Fix</h3>
           <p className="text-[18px] leading-[24px] mt-[20px] font-commissioner">Perfect for small teams or temporary roles</p>
           <ul className="space-y-4 text-[18px] font-commissioner mt-[20px]">
@@ -80,7 +80,7 @@ const Section7 = () => {
         </div>
 
         {/* The Open Book */}
-        <div className="bg-white p-8 rounded-lg text-left text-[#191919]">
+        <div className="bg-white p-8 rounded-lg text-left text-[#191919] bg-[#F2F2F2]">
           <h3 className="text-[28px] font-youngSerif leading-[30px]">The Open Book</h3>
           <p className="font-commissioner leading-[24px] mt-[20px] text-[18px]">Perfect for mid-sized, long term teams</p>
           <ul className="space-y-4 text-[18px] font-commissioner  mt-[20px]">
@@ -123,7 +123,7 @@ const Section7 = () => {
         </div>
 
         {/* Enterprise */}
-        <div className="bg-white p-8 rounded-lg text-left text-[#191919]">
+        <div className="bg-white p-8 rounded-lg text-left text-[#191919] bg-[#F2F2F2]">
           <h3 className="text-[28px] font-youngSerif leading-[30px]">Enterprise</h3>
           <p className="font-commissioner leading-[24px] mt-[20px] text-[18px]">Perfect for large teams</p>
           <ul className="space-y-4 text-[18px] font-commissioner mt-[20px]">

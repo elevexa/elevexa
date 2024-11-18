@@ -51,7 +51,7 @@ const Section5 = () => {
     <section className="max-w-[912px] mt-[60px] sm:mt-[180px] px-[16px] lg:px-0 mx-auto text-center" id='process'>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[16px] lg:grid-cols-2 lg:gap-[16px]">
         {/* They Section */}
-        <div className="bg-white text-[#191919] rounded-lg text-left p-[45px] order-2 lg:order-1">
+        <div className="bg-[#F2F2F2] text-[#191919] rounded-lg text-left p-[45px] order-2 lg:order-1">
           <h3 className="text-[28px] leading-[30px] md:text-[36px] md:leading-[42px] font-youngSerif">They</h3>
           <ul className="space-y-4 text-[16px] md:text-[18px] mt-[15px] font-commissioner">
             <li className="flex items-start">

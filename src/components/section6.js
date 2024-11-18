@@ -43,7 +43,7 @@ const Section6 = () => {
       <h2 className="text-[36px] leading-[38px] lg:text-4xl font-youngSerif text-[#191919]">The Grand Qualification</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px] md:mt-[45px]">
         {/* The Résumé Rumble */}
-        <div className="bg-white p-[36px] mt-[30px] md:mt-0 rounded-[5px] text-left">
+        <div className="bg-white p-[36px] mt-[30px] md:mt-0 rounded-[5px] text-left bg-[#F2F2F2]">
           <img
             src={isVisible ? '/gif/4.gif' : '/image10.jpg'}
             alt="The Résumé Rumble"
@@ -70,7 +70,7 @@ const Section6 = () => {
         </div>
 
         {/* The Soft Skills Showdown */}
-        <div className="bg-white p-[36px] rounded-[5px] text-left">
+        <div className="bg-white p-[36px] rounded-[5px] text-left bg-[#F2F2F2]">
           <img
             src={isVisible ? '/gif/5.gif' : '/image11.jpg'}
             alt="The Soft Skills Showdown"
@@ -97,7 +97,7 @@ const Section6 = () => {
         </div>
 
         {/* Checkpoint: Your Hiring Manager */}
-        <div className="bg-white p-[36px] rounded-[5px] text-left">
+        <div className="bg-white p-[36px] rounded-[5px] text-left bg-[#F2F2F2]">
           <img
             src={isVisible ? '/gif/6.gif' : '/image12.jpg'}
             alt="Checkpoint: Your Hiring Manager"
