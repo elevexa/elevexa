@@ -43,7 +43,7 @@ const Section3 = () => {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[16px] mt-[45px]">
         {/* Referrals */}
-        <div className="bg-white text-[#191919] p-[45px] rounded-lg bg-[#F2F2F2]">
+        <div className="text-[#191919] p-[45px] rounded-lg bg-[#F2F2F2]">
           <img src="/image2.jpg" alt="Referrals" className="w-[358px] rounded-[5px] h-[244px] object-cover" />
           <h3 className="text-[28px] text-left leading-[30px] mt-[25px] font-youngSerif">Referrals</h3>
           <p className='font-commissioner text-left mt-[20px] font-[18px] leading-[24px]'>
@@ -54,7 +54,7 @@ const Section3 = () => {
         </div>
 
         {/* LinkedIn & Social Branding */}
-        <div className="bg-white text-[#191919] p-[45px] rounded-lg bg-[#F2F2F2]">
+        <div className="text-[#191919] p-[45px] rounded-lg bg-[#F2F2F2]">
           <img src="/image3.jpg" alt="LinkedIn & Social Branding" className="rounded-[5px] w-[358px] h-[244px] object-cover" />
           <h3 className="text-[28px] text-left leading-[30px] mt-[25px] font-youngSerif">LinkedIn & Social Branding</h3>
           <p className='font-commissioner text-left mt-[20px] font-[18px] leading-[24px]'>
@@ -65,7 +65,7 @@ const Section3 = () => {
         </div>
 
         {/* Active Headhunting */}
-        <div className="bg-white text-[#191919] p-[45px] rounded-lg bg-[#F2F2F2]">
+        <div className="text-[#191919] p-[45px] rounded-lg bg-[#F2F2F2]">
           <img src="/image4.jpg" alt="Active Headhunting" className="w-[358px] rounded-[5px] h-[244px] object-cover" />
           <h3 className="text-[28px] text-left leading-[30px] mt-[25px] font-youngSerif">Active Headhunting</h3>
           <p className='font-commissioner font-[18px] text-left mt-[20px] leading-[24px]'>
@@ -76,7 +76,7 @@ const Section3 = () => {
         </div>
 
         {/* Setting Up A Nearshore Location Yourself */}
-        <div className="bg-white text-[#191919] p-[45px] rounded-lg bg-[#F2F2F2]">
+        <div className="text-[#191919] p-[45px] rounded-lg bg-[#F2F2F2]">
           <img src="/image5.jpg" alt="Setting Up A Nearshore Location Yourself" className="rounded-[5px] w-[358px] h-[244px] object-cover" />
           <h3 className="text-[28px] text-left leading-[30px] mt-[25px] font-youngSerif">Setting Up A Nearshore Location Yourself</h3>
           <p className='font-commissioner text-left mt-[20px] font-[18px] leading-[24px]'>

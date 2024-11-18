@@ -6,7 +6,7 @@ const Section3 = () => {
       <h2 className="text-4xl h text-[#191919] font-youngSerif">Moldova is cool because...</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-[16px] mt-[45px]">
         {/* Sweet, Exclusive Tax */}
-        <div className="bg-white text-[#191919]  p-[45px] rounded-[5px] bg-[#F2F2F2]">
+        <div className="text-[#191919]  p-[45px] rounded-[5px] bg-[#F2F2F2]">
           <img
               src="/assets/icon6.jpg"
               alt="icon1"
@@ -42,7 +42,7 @@ const Section3 = () => {
         </div>
 
         {/* You Get Happy Devs */}
-        <div className="bg-white  text-[#191919] p-[45px] rounded-[5px] bg-[#F2F2F2]">
+        <div className="text-[#191919] p-[45px] rounded-[5px] bg-[#F2F2F2]">
           <img
               src="/assets/icon8.jpg"
               alt="icon1"
