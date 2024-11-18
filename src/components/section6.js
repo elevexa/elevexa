@@ -59,7 +59,7 @@ const Section6 = () => {
             />
           )}
           <img
-            src={isVisible ? '/assets/icon2.jpg' : '/assets/icon2placeholder.jpg'}
+            src='/assets/icon2.png'
             alt="icone"
             className="w-[40px] h-[40px] mt-[20px]"
           />
@@ -86,7 +86,7 @@ const Section6 = () => {
             />
           )}
           <img
-            src={isVisible ? '/assets/icon3.jpg' : '/assets/icon3placeholder.jpg'}
+            src='/assets/icon3.png'
             alt="icone"
             className="w-[40px] h-[40px] mt-[20px]"
           />
@@ -113,7 +113,7 @@ const Section6 = () => {
             />
           )}
           <img
-            src={isVisible ? '/assets/icon4.jpg' : '/assets/icon4placeholder.jpg'}
+            src='/assets/icon4.png'
             alt="icone"
             className="w-[40px] h-[40px] mt-[20px]"
           />

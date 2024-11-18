@@ -34,7 +34,7 @@ const Section1 = () => {
   return (
     <section
       ref={ref}
-      className="max-w-[1376px] mx-auto flex flex-col-reverse md:flex-row items-center md:items-start justify-between px-[16px] md:mt-[45px] md:px-0"
+      className="max-w-[1376px] mx-auto flex flex-col-reverse md:flex-row mt-[48px] sm:mt-0 items-center md:items-start justify-between px-[16px] md:mt-[45px] md:px-0"
     >
       {/* Left Side - Text and Button */}
       <div className="md:w-1/2 mr-4">

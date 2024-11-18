@@ -56,7 +56,7 @@ const Section5 = () => {
           <ul className="space-y-4 text-[16px] md:text-[18px] mt-[15px] font-commissioner">
             <li className="flex items-start">
               <img
-                src="/assets/icon1black.jpg"
+                src="/icon1black.png"
                 alt="icon1"
                 className="mr-2 w-[24px] h-[24px] mt-[2px]"
               />
@@ -64,7 +64,7 @@ const Section5 = () => {
             </li>
             <li className="flex items-start">
               <img
-                src="/assets/icon1black.jpg"
+                src="/icon1black.png"
                 alt="icon1"
                 className="mr-2 w-[24px] h-[24px] mt-[2px]"
               />
@@ -72,7 +72,7 @@ const Section5 = () => {
             </li>
             <li className="flex items-start">
               <img
-                src="/assets/icon1black.jpg"
+                src="/icon1black.png"
                 alt="icon1"
                 className="mr-2 w-[24px] h-[24px] mt-[2px]"
               />
@@ -80,7 +80,7 @@ const Section5 = () => {
             </li>
             <li className="flex items-start">
               <img
-                src="/assets/icon1black.jpg"
+                src="/icon1black.png"
                 alt="icon1"
                 className="mr-2 w-[24px] h-[24px] mt-[2px]"
               />
@@ -88,7 +88,7 @@ const Section5 = () => {
             </li>
             <li className="flex items-start">
               <img
-                src="/assets/icon1black.jpg"
+                src="/icon1black.png"
                 alt="icon1"
                 className="mr-2 w-[24px] h-[24px] mt-[2px]"
               />

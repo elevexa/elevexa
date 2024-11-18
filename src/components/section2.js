@@ -8,7 +8,7 @@ const Section3 = () => {
         {/* Sweet, Exclusive Tax */}
         <div className="text-[#191919]  p-[45px] rounded-[5px] bg-[#F2F2F2]">
           <img
-              src="/assets/icon6.jpg"
+              src="/icon6.png"
               alt="icon1"
               className="mr-2 w-[40px] h-[40px] mt-[2px]"
             />
@@ -22,7 +22,7 @@ const Section3 = () => {
         {/* Low-Cost Clock */}
         <div className="bg-[#3C3C3C] text-white p-[45px] rounded-[5px]">
          <img
-              src="/assets/icon7.jpg"
+              src="/icon7.png"
               alt="icon1"
               className="mr-2 w-[40px] h-[40px] mt-[2px]"
             />
@@ -44,7 +44,7 @@ const Section3 = () => {
         {/* You Get Happy Devs */}
         <div className="text-[#191919] p-[45px] rounded-[5px] bg-[#F2F2F2]">
           <img
-              src="/assets/icon8.jpg"
+              src="/icon8.png"
               alt="icon1"
               className="mr-2 w-[40px] h-[40px] mt-[2px]"
             />
